@@ -1,0 +1,23 @@
+{{define "top-nav"}}
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+     <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">Tab pane content</div>
+    <div role="tabpanel" class="tab-pane" id="profile">Tab pane content</div>
+    <div role="tabpanel" class="tab-pane" id="messages">Tab pane content</div>
+    <div role="tabpanel" class="tab-pane" id="settings">Tab pane content</div>
+    </div>
+    </div>
+  </div><!-- /.container -->
+</nav><!-- /.navbar -->
+{{end}}
